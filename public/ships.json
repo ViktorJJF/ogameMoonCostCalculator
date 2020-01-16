@@ -1,0 +1,121 @@
+[{
+    "id": 1,
+    "name": "Nave pequeña de carga",
+    "costs": {
+        "metal": 2000,
+        "crystal": 2000,
+        "deuterium": 0
+    }
+}, {
+    "id": 2,
+    "name": "Nave Grande de carga",
+    "costs": {
+        "metal": 6000,
+        "crystal": 6000,
+        "deuterium": 0
+    }
+}, {
+    "id": 3,
+    "name": "Cazador Ligero",
+    "costs": {
+        "metal": 3000,
+        "crystal": 1000,
+        "deuterium": 0
+    }
+}, {
+    "id": 4,
+    "name": "Cazador Pesado",
+    "costs": {
+        "metal": 6000,
+        "crystal": 4000,
+        "deuterium": 0
+    }
+}, {
+    "id": 5,
+    "name": "Crucero",
+    "costs": {
+        "metal": 20000,
+        "crystal": 7000,
+        "deuterium": 2000
+    }
+}, {
+    "id": 6,
+    "name": "Nave de batalla",
+    "costs": {
+        "metal": 45000,
+        "crystal": 15000,
+        "deuterium": 0
+    }
+}, {
+    "id": 7,
+    "name": "Colonizador",
+    "costs": {
+        "metal": 10000,
+        "crystal": 20000,
+        "deuterium": 10000
+    }
+}, {
+    "id": 8,
+    "name": "Reciclador",
+    "costs": {
+        "metal": 10000,
+        "crystal": 6000,
+        "deuterium": 2000
+    }
+}, {
+    "id": 9,
+    "name": "Sonda de espionaje",
+    "costs": {
+        "metal": 0,
+        "crystal": 1000,
+        "deuterium": 0
+    }
+}, {
+    "id": 10,
+    "name": "Bombardero",
+    "costs": {
+        "metal": 50000,
+        "crystal": 25000,
+        "deuterium": 15000
+    }
+}, {
+    "id": 11,
+    "name": "Destructor",
+    "costs": {
+        "metal": 60000,
+        "crystal": 50000,
+        "deuterium": 15000
+    }
+}, {
+    "id": 12,
+    "name": "Estrella de la muerte",
+    "costs": {
+        "metal": 5000000,
+        "crystal": 4000000,
+        "deuterium": 1000000
+    }
+}, {
+    "id": 13,
+    "name": "Acorazado",
+    "costs": {
+        "metal": 30000,
+        "crystal": 40000,
+        "deuterium": 15000
+    }
+}, {
+    "id": 14,
+    "name": "Segador",
+    "costs": {
+        "metal": 85000,
+        "crystal": 55000,
+        "deuterium": 20000
+    }
+}, {
+    "id": 15,
+    "name": "Explorador",
+    "costs": {
+        "metal": 2000,
+        "crystal": 2000,
+        "deuterium": 0
+    }
+}]
