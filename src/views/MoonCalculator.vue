@@ -222,6 +222,7 @@ export default {
         });
     },
     saveToLocalStorage() {
+      //optional
       localStorage.setItem("attempts", JSON.stringify(this.attempts));
     },
     addAttempt() {
