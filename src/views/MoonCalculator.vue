@@ -1,12 +1,13 @@
 <template>
   <v-container fluid class="container-width" v-if="ships.length > 0">
     <v-select
-      :items="[{name:'30%',value:0.3},{name:'50%',value:0.5},{name:'80%',value:0.8},]"
+      :items="[{name:'30%',value:0.3},{name:'40%',value:0.4},{name:'50%',value:0.5},{name:'60%',value:0.6},{name:'70%',value:0.7},{name:'80%',value:0.8},]"
       v-model="debris"
       item-text="name"
       item-value="value"
       background-color="white"
       class="input-width"
+      prefix="Escombros"
     ></v-select>
     <v-row>
       <v-col cols="12" sm="4">
@@ -144,6 +145,12 @@
               <b>Cristal:</b>
               {{(total.crystal*(1-debris)).toLocaleString()}}
             </p>
+            <div class="resourceIcon deuterium mr-3"></div>
+
+            <p>
+              <b>Deuterio:</b>
+              {{total.deuterium.toLocaleString()}}
+            </p>
           </v-container>
         </v-card>
       </v-col>
@@ -156,7 +163,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      debris: 0.8,
+      debris: 0.7,
       total: { metal: 0, crystal: 0, deuterium: 0 },
       ships: [],
       qtyShips: [
